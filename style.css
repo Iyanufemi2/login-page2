@@ -1,0 +1,112 @@
+body{
+    font-family: sans-serif 'Courier New', Courier, monospace;
+    background-color:rgb(236, 230, 230);
+}
+.loginformsbox{
+    width:360px;
+    height:620px;
+    background-color:white;
+    margin:0 auto;
+}
+img{
+    display: block;
+    margin:0 auto;
+    padding: 15px 0;
+}
+h2{
+    text-align:center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h4{
+    list-style-type: none;
+    text-align: center;
+    font-size: small;
+    font-family: courier;
+}
+.forms-group{
+    width:200px;
+    height:30px;
+    margin-left:5px;
+    padding: 20px;
+    outline: none;
+}
+.forms-group input{
+    width: 300px;
+    padding: 12px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+.forms-group label{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.container{
+    margin-right:0%;
+    padding-block: 1px;
+}
+.container a{
+    text-decoration: none;
+    color: purple;
+}
+.container label{
+    font-size:15px;
+
+}
+.container input{
+    margin-left: 30px;
+    margin-right:5px;
+}
+.tin{
+    cursor: pointer;
+    padding: 10px;
+    width: 320px;
+    margin: 0 25px;
+    background-color: blueviolet;
+    border:none;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.pin{
+    margin: 0 25px;
+    width:320px;
+    padding:1px;
+    font-weight: bold;
+    font-size: small;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+.pin img{
+    cursor: pointer;
+    object-fit: contain;
+    width: 25px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.bin{
+    margin-left: 50px;
+    font-size: 15px;
+     font-family: courier;
+}
+.bin a{
+    color: purple;
+    text-decoration: none;
+}
+@media only screen and (max-width:370px) {
+    .loginformsbox{
+        width:100%;
+        height:100vh;
+
+    }
+}
+@media only screen and (min-width:600px) {
+    .loginformsbox{
+        margin-top:100px;
+    }
+}
+
