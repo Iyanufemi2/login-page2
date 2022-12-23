@@ -6,27 +6,43 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="loginformsbox">
-            <img src="background.png" width="70" height="70">
-            <h2> Welcome back</h2>
-            <h4>welcome back! please enter your details.</h4>
-            <div class="forms-group">
-                <label for="">Email</label>
-                <input type="email" id="email" placeholder="enter your email" required>
-                  </div>
-            <div class="forms-group">
-                <label for="Password">Password</label>
-                <input type="password" id="password" placeholder="your password" required>
+        <div class="login-wrapper">
+
+
+            <div class="box-image box-col">
+              </div>
+              <div class="box-col">
+                <div class="box-form">
+                    <div class="inner">
+                        <div class="title">
+                            <img src="background.png" alt="google logo">
+                           <h2>Welcome back</h2>
+                           <h4>welcome back! please enter your details</h4>
+                        </div>
+                        <div class="forms-group">
+                            <div class="label-text">Email</div>
+                            <input type="text" class="forms-control" placeholder="your email">
+                        </div>
+                        <div class="forms-group">
+                            <div class="label-text">Password</div>
+                            <input type="text" class="forms-control" placeholder="your password">
+                        </div>
+                        <div class="form-button">
+                            <div class="check-action">
+                                <input type="checkbox" class="check">
+                                <span class="name">Remember me for 30 days</span>
+                            </div>
+                            <a href="#" class="link">Forgot password?</a>
+                        </div>
+                        <div>
+                            <button class="pi">sign in</button>
+                          <button class="bin"><img src="google-logo.png" alt="google logo">Sign in with google
+                          </button>
+                    <div class=" pin">Don't have an account<a href="#"> sign up</a>
+                    </div>
+              </div>
             </div>
-            <div class="cin">
-                <input type="checkbox">
-                <label for="checkbox">Remember me for 30 days&nbsp; &nbsp;&nbsp; &nbsp; <a href="#">forgot password</a></label>
-            </div>
-            <button class="tin">sign in</button>
-            <div>
-        <button class="pin"><img src="google-logo.png">Sign in with Google</button>
-            </div>
-        <p class="bin">Don't have an account? <a href="#">Sign up</a></p>
-        </form>
+        </div>
     </body>
-</html> 
+    </html>
+   
