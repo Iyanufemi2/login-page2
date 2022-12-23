@@ -9,6 +9,7 @@ body{
 .link{
     text-decoration:none;
     color: purple;
+    font-size:15px;
 }
 .link:hover{
     color: blue;
@@ -31,14 +32,14 @@ body{
     width: 50px;
     height: 50px;
     display: block;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-top: 0;
 }
-h2{
+ h2{
     text-align: center;
+    font-weight: bold;
     font-family: sans-serif;
-    font-weight: 5px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 h4{
     margin-bottom: 10px;
@@ -54,7 +55,6 @@ h4{
     background-color: white;
 }
 .login-wrapper .inner{
-    max-width: 350px;
     margin: auto;
 }
 .forms-head .title{
@@ -126,8 +126,129 @@ h4{
         height:auto;
         
     }
-    .login-wrapper{
-        width: auto;
-    
+    .title img{
+        margin-left: 120px;
     }
+    h4{
+        font-size: 13px;
+    }
+    .login-wrapper .inner{
+        width: 100%;
+    }
+    .forms-group .forms-control{
+        width: 90%;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .link{
+        margin-right: 0;
+    }
+    .check-action{
+        font-size: 10px;
+    }
+    .check-action a{
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .pi{
+        width:120%;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .bin{
+        width: 120%;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .pin{
+        font-size: 15px;
+    }
+    .pin a{
+        font-size: 20px;
+    }
+  
+}
+@media screen and (min-width:600px){
+    body{
+        width:100%;
+        height: auto;
+    }
+    .title img{
+        width:100px;
+        height: 100px;
+        margin-left: 180px;
+    }
+    h2{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    h4{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .login-wrapper{
+        margin: 0 auto;
+    }
+    .login-wrapper .box-form{
+      margin-left: 50px;
+    }
+    .forms-group{
+        margin-bottom: 30px;
+    }
+    .forms-group .label-text{
+        font-size: 20px;
+    }
+    .forms-group .forms-control{
+        padding: 25px;
+    }
+    .pi{
+        width: 150%;
+        padding: 10px;
+        font-size: 25px;
+     }
+     .bin{
+        width: 150%;
+        padding: 5px;
+        font-size: 15px;
+        }
+        .pin{
+            padding: 0;
+            font-size: 15px;
+            margin-left: 70px;
+            margin-bottom:0;
+        }
+
+}
+@media  screen and (max-width:330px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .title img{
+        margin-left: 100px;
+    }
+    .forms-group .forms-control{
+        padding: 10px;
+    }
+    .pin{
+        padding: 10px;
+        margin: 0;
+    }
+    .bin{
+        padding: 5px;
+        width: 100%;
+        margin: 3px;
+    }
+    .pi{
+        margin-top: 3px;
+        width: 100%;
+    }
+    
 }
