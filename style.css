@@ -6,10 +6,9 @@
 body{
     font-family:sans-serif 'Courier New', Courier, monospace;
 }
-.link{
+ .link{
     text-decoration:none;
     color: purple;
-    font-size:15px;
 }
 .link:hover{
     color: blue;
@@ -56,8 +55,6 @@ h4{
 }
 .login-wrapper .inner{
     margin: auto;
-}
-.forms-head .title{
 
 }
 .forms-group{
@@ -77,10 +74,16 @@ h4{
     border-radius: 10px;
 
 }
+.fin a{
+    font-size: 40px;
+}
+.check-action{
+    font-size: larger;
+}
 .pi{
     cursor: pointer;
     padding: 10px;
-    width: 100%;
+    width:100%;
     background-color:blueviolet;
     border: none;
     border: 1px solid grey;
@@ -91,7 +94,7 @@ h4{
     background-color: aliceblue;
 }
 .bin{
-    width: 350px;
+    width: 100%;
     padding: 10px 10px;
     margin-bottom: 30px;
     border: 1px solid grey;
@@ -124,6 +127,7 @@ h4{
     body{
         width: 100%;
         height:auto;
+        padding: 0%;
         
     }
     .title img{
@@ -131,44 +135,60 @@ h4{
     }
     h4{
         font-size: 13px;
+        margin-left: 10px;
+        margin-bottom: 25px;
     }
     .login-wrapper .inner{
         width: 100%;
     }
     .forms-group .forms-control{
-        width: 90%;
+        width: 100%;
+        height: 40px;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    }
+    .forms-group .label-text{
+        margin-left: 8px;
     }
     .name{
         font-size: 15px;
-    }
-    .link{
-        margin-right: 0;
+
     }
     .check-action{
         font-size: 10px;
     }
     .check-action a{
-        margin-left: 0;
-        font-size: 10px;
+        font-size: 15px;
     }
     .pi{
-        width:120%;
+        width:135%;
         font-size: 15px;
         margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 3px;
+    }
+    .check-action .check{
+        margin-left: 10px;
     }
     .bin{
-        width: 120%;
+        width: 135%;
         font-size: 15px;
         margin-top: 20px;
+        margin-left: 4px;
+        border-radius: 5px;
+    }
+    .bin img{
+        width: 15px;
+        height: 15px;
     }
     .pin{
         font-size: 15px;
     }
     .pin a{
-        font-size: 20px;
+        font-size: 10px;
     }
-  
-}
 @media screen and (min-width:600px){
     body{
         width:100%;
@@ -200,16 +220,19 @@ h4{
         font-size: 20px;
     }
     .forms-group .forms-control{
-        padding: 25px;
+        height: 40px;
+        padding: 10px;
     }
     .pi{
-        width: 150%;
-        padding: 10px;
-        font-size: 25px;
+        width: 180%;
+        height: 40px;
+    
+        font-size: 10px;
      }
      .bin{
-        width: 150%;
-        padding: 5px;
+        width: 180%;
+        height: 40px;
+        padding: 0;
         font-size: 15px;
         }
         .pin{
