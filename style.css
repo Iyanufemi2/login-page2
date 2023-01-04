@@ -9,7 +9,7 @@ body{
  .link{
     text-decoration:none;
     color: purple;
-    font-size: 15px;
+    font-size: 20px;
 }
 .link:hover{
     color: blue;
@@ -128,7 +128,7 @@ h4{
         
     }
     .fin{
-        font-size: 10px;
+        font-size:12px;
     }
     .title img{
         margin-left: 130px;
