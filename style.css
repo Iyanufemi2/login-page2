@@ -130,6 +130,9 @@ h4{
         padding: 0%;
         
     }
+    .fin{
+        font-size: 15px;
+    }
     .title img{
         margin-left: 130px;
     }
@@ -162,7 +165,7 @@ h4{
         font-size: 15px;
     }
     .pi{
-        width:115%;
+        width:100%;
         font-size: 15px;
         margin-top: 20px;
         padding: 10px;
@@ -173,7 +176,7 @@ h4{
         margin-left: 10px;
     }
     .bin{
-        width: 115%;
+        width: 100%;
         font-size: 15px;
         margin-top: 20px;
         margin-left: 4px;
