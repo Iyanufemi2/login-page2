@@ -9,6 +9,7 @@ body{
  .link{
     text-decoration:none;
     color: purple;
+    font-size: 15px;
 }
 .link:hover{
     color: blue;
@@ -72,10 +73,6 @@ h4{
     border: none;
     border: 1px solid grey;
     border-radius: 10px;
-
-}
-.fin a{
-    font-size: 40px;
 }
 .check-action{
     font-size: larger;
@@ -154,15 +151,11 @@ h4{
     .forms-group .label-text{
         margin-left: 8px;
     }
-    .name{
-        font-size: 15px;
-
-    }
-    .check-action{
-        font-size: 10px;
+    .check{
+        margin-left: 30px;
     }
     .check-action a{
-        font-size: 15px;
+        font-size: 10px;
     }
     .pi{
         width:100%;
