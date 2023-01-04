@@ -154,11 +154,14 @@ h4{
     .check{
         margin-left: 30px;
     }
+    .check-action input{
+        margin-left: 10px
+    }
     .check-action a{
         font-size: 10px;
     }
     .pi{
-        width:100%;
+        width:110%;
         font-size: 15px;
         margin-top: 20px;
         padding: 10px;
@@ -169,15 +172,15 @@ h4{
         margin-left: 10px;
     }
     .bin{
-        width: 100%;
+        width: 110%;
         font-size: 15px;
         margin-top: 20px;
         margin-left: 4px;
         border-radius: 5px;
     }
     .bin img{
-        width: 15px;
-        height: 15px;
+        width: 18px;
+        height: 18px;
     }
     .pin{
         font-size: 15px;
